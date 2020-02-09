@@ -1,6 +1,111 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>适用于Ryzen R7 &amp;amp; B450的OpenCore EFI for macOS 10.15.3</title>
+    <url>/Hackintosh/%E9%80%82%E7%94%A8%E4%BA%8ERyzen%20R7%20&amp;amp;%20B450%E7%9A%84OpenCore%20EFI%20for%20macOS%2010.15.3/</url>
+    <content><![CDATA[<h2 id="适用于Ryzen-R7-amp-B450的OpenCore-EFI-for-macOS-10-15-3"><a href="#适用于Ryzen-R7-amp-B450的OpenCore-EFI-for-macOS-10-15-3" class="headerlink" title="适用于Ryzen R7 &amp; B450的OpenCore EFI for macOS 10.15.3"></a>适用于Ryzen R7 &amp; B450的OpenCore EFI for macOS 10.15.3</h2><p>本 EFI 采用 OpenCore 引导，在使用前请阅读<a href="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf" target="_blank" rel="noopener">OpenCore 官方文档</a> – OpenCore 最权威的资料<br><a href="https://mackie100projects.altervista.org/opencore-configurator/" target="_blank" rel="noopener">OpenCore Configurator</a> – 适用于 OpenCore 的 config.plist 编辑工具</p>
+<h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>受春节和疫情影响，计划购置的 DW1820A 无法发货，暂时只加入了无线和蓝牙驱动没有办法调试，理论上支持Airdrop 和 Handoff</p>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CPU</td>
+<td>AMD Ryzen 3700X</td>
+</tr>
+<tr>
+<td>MB</td>
+<td>MSI B450M MORTAR MAX</td>
+</tr>
+<tr>
+<td>Audio</td>
+<td>Realtek ALC892 Codec</td>
+</tr>
+<tr>
+<td>GPU</td>
+<td>PowerColor Radeon Vega 64</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>32GB 3600MHz DDR4 (16G * 2)</td>
+</tr>
+<tr>
+<td>Ethernet</td>
+<td>Realtek RTL8111H-CG</td>
+</tr>
+<tr>
+<td>Wireless &amp; Bluetooth</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Name</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>CPU</td>
+<td>AMD Ryzen 2700</td>
+</tr>
+<tr>
+<td>MB</td>
+<td>MSI B450I MORTAR MAX</td>
+</tr>
+<tr>
+<td>Audio</td>
+<td>Realtek ALC887 Codec</td>
+</tr>
+<tr>
+<td>GPU</td>
+<td>XFX Radeon RX 580 8G 2304sp</td>
+</tr>
+<tr>
+<td>RAM</td>
+<td>16GB 3000MHz DDR4 (16G * 1)</td>
+</tr>
+<tr>
+<td>Ethernet</td>
+<td>Realtek 8111H Gigabit LAN controller</td>
+</tr>
+<tr>
+<td>Wireless &amp; Bluetooth</td>
+<td>None</td>
+</tr>
+</tbody></table>
+<h2 id="来源"><a href="#来源" class="headerlink" title="来源"></a>来源</h2><ul>
+<li><input checked="" disabled="" type="checkbox"> OpenCore by <a href="https://github.com/acidanthera/OpenCorePkg/releases" target="_blank" rel="noopener">OpenCorePkg</a></li>
+<li><input checked="" disabled="" type="checkbox"> Audio by <a href="https://github.com/acidanthera/AppleALC" target="_blank" rel="noopener">AppleALC</a> </li>
+<li><input checked="" disabled="" type="checkbox"> Graphics by <a href="https://github.com/acidanthera/WhateverGreen" target="_blank" rel="noopener">WhateverGreen</a></li>
+<li><input checked="" disabled="" type="checkbox"> WIFI by <a href="https://github.com/acidanthera/AirportBrcmFixup" target="_blank" rel="noopener">AirportBrcmFixup</a> (brcmfx-country=#a)</li>
+<li><input checked="" disabled="" type="checkbox"> Bluetooth by <a href="https://github.com/RehabMan/OS-X-BrcmPatchRAM" target="_blank" rel="noopener">BrcmPatchRAM</a> and <a href="https://osxlatitude.com/forums/topic/11540-dw1820a-the-general-troubleshooting-thread/page/10/" target="_blank" rel="noopener">nickhx from osxlatitude</a></li>
+</ul>
+<h2 id="已知问题"><a href="#已知问题" class="headerlink" title="已知问题"></a>已知问题</h2><ul>
+<li>Realtek ALC887 声卡暂未驱动成功</li>
+<li>不支持 32-bit</li>
+<li>不能运行 Android 模拟器，因为 Android 模拟器只支持 VT-X ，但是支持AMD-V的 Genymotion 和 Virtualbox 可以运行</li>
+</ul>
+<h2 id="截屏"><a href="#截屏" class="headerlink" title="截屏"></a>截屏</h2><p><img src="https://github.com/ChirsVeon/B450-Hackintosh/blob/master/ScreenShot/1About.png?raw=true" alt="1About"></p>
+<p><img src="https://github.com/ChirsVeon/B450-Hackintosh/raw/master/ScreenShot/2Displays.png?raw=true" alt="2DISPLAYS"></p>
+<p><img src="https://github.com/ChirsVeon/B450-Hackintosh/raw/master/ScreenShot/3USB.png?raw=true" alt="3USB"></p>
+<p><img src="https://github.com/ChirsVeon/B450-Hackintosh/raw/master/ScreenShot/4AppleHDA.png?raw=true" alt="4APPLEHDA"></p>
+<p><img src="https://github.com/ChirsVeon/B450-Hackintosh/raw/master/ScreenShot/5Ethernet.png?raw=true" alt="5ETHERNET"></p>
+<p><img src="https://github.com/ChirsVeon/B450-Hackintosh/raw/master/ScreenShot/6IGPU.png?raw=true" alt="6IGPU"></p>
+<p><img src="https://github.com/ChirsVeon/B450-Hackintosh/raw/master/ScreenShot/7Memory.png?raw=true" alt="7MEMORY"></p>
+<p><img src="https://github.com/ChirsVeon/B450-Hackintosh/raw/master/ScreenShot/8Audio.png?raw=true" alt="8AUDIO"></p>
+]]></content>
+      <categories>
+        <category>Hackintosh</category>
+      </categories>
+      <tags>
+        <tag>Ryzen Hackintosh</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>我的第一篇博客文章</title>
     <url>/%E6%97%A5%E5%B8%B8/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0/</url>
     <content><![CDATA[<div id="hexo-blog-encrypt" data-wpm="抱歉, 这个密码看着不太对, 请再试试." data-whm="抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容."><div class="hbe-input-container"><input type="password" id="hbePass" placeholder="您好, 这里需要密码." /><label>您好, 这里需要密码.</label><div class="bottom-line"></div></div><script id="hbeData" type="hbeData" data-hmacdigest="4e30590777b0bc6a8285096b14e14a6f1695ca94298440ab0af5dd2666641a3e">8a179da943389fdc909f89e1d1191405125aa5e842de13090643e640cfe08a1295864fdc8c410b99ec34aa280e51cbd143a39c21246c8e1a535a4420e8c21f504813db8e6fd254fec84fcb018abde76c999577f6e66c9028f10d2d85aa02c00f07ec5378dbf4bf953900b82cacfb9abb3209c5b8a4f6751daaa511b293a918789dea49bf5e9a117c03adbbd409aa22b897c6a2f83966943a28c3bb9ecd1a754337547d9dd98cadc2695ab6c35b72a0ae44ac2d081bbe3b134db7cdd0c6b03135f9e494800aa1d169af61f8e574671094459c8f8a4afcf67e0d33d80aeed0769ebddd51ace7378a1e9f3f40742da341f2298bad5cf7de42d272d07c2aecf270c36df6e3572518175bb1d64156327aa9fcc99a26c709f39aacc2c882e0b9544b93af04b7b583669fcc36e4d39046c7c71b20e53c66e049c656a03b5d9f7ec9cb6be0464dca5ef8c5463dcbf139befa4910fb7492f8304a79d33fe9811499f5f45ac8f0f10317da16dbbf1e92fc39774121</script></div><script src="/lib/blog-encrypt.js"></script><link href="/css/blog-encrypt.css" rel="stylesheet" type="text/css">]]></content>
