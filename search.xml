@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>适用于Ryzen R7 &amp;amp; B450的OpenCore EFI for macOS 10.15.3</title>
-    <url>/Hackintosh/%E9%80%82%E7%94%A8%E4%BA%8ERyzen%20R7%20&amp;amp;%20B450%E7%9A%84OpenCore%20EFI%20for%20macOS%2010.15.3/</url>
-    <content><![CDATA[<h2 id="适用于Ryzen-R7-amp-B450的OpenCore-EFI-for-macOS-10-15-3"><a href="#适用于Ryzen-R7-amp-B450的OpenCore-EFI-for-macOS-10-15-3" class="headerlink" title="适用于Ryzen R7 &amp; B450的OpenCore EFI for macOS 10.15.3"></a>适用于Ryzen R7 &amp; B450的OpenCore EFI for macOS 10.15.3</h2><p>本 EFI 采用 OpenCore 引导，在使用前请阅读<a href="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf" target="_blank" rel="noopener">OpenCore 官方文档</a> – OpenCore 最权威的资料<br><a href="https://mackie100projects.altervista.org/opencore-configurator/" target="_blank" rel="noopener">OpenCore Configurator</a> – 适用于 OpenCore 的 config.plist 编辑工具</p>
+    <title>适用于Ryzen R7 &amp;amp; B450的OpenCore EFI for macOS Catalina 10.15.3</title>
+    <url>/Hackintosh/AMD-Ryzen-B450-OpenCore-EFI-for-macOS-Catalina-10.15.3/</url>
+    <content><![CDATA[<h2 id="适用于Ryzen-R7-amp-B450的OpenCore-EFI-for-macOS-Catalina-10-15-3"><a href="#适用于Ryzen-R7-amp-B450的OpenCore-EFI-for-macOS-Catalina-10-15-3" class="headerlink" title="适用于Ryzen R7 &amp; B450的OpenCore EFI for macOS Catalina 10.15.3"></a>适用于Ryzen R7 &amp; B450的OpenCore EFI for macOS Catalina 10.15.3</h2><p>本 EFI 采用 OpenCore 引导，在使用前请阅读<a href="https://github.com/acidanthera/OpenCorePkg/blob/master/Docs/Configuration.pdf" target="_blank" rel="noopener">OpenCore 官方文档</a> – OpenCore 最权威的资料<br><a href="https://mackie100projects.altervista.org/opencore-configurator/" target="_blank" rel="noopener">OpenCore Configurator</a> – 适用于 OpenCore 的 config.plist 编辑工具</p>
 <h2 id="下载链接"><a href="#下载链接" class="headerlink" title="下载链接"></a>下载链接</h2><p><a href="https://www.lanzous.com/i977jsf" target="_blank" rel="noopener">蓝奏云</a></p>
 <p><a href="https://pan.baidu.com/s/1J9sTdw0i5Fdi5b_Qs4c1Ig" target="_blank" rel="noopener">百度网盘</a>提取码：imcw </p>
 <h2 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h2><p>受春节和疫情影响，计划购置的 DW1820A 无法发货，暂时只加入了无线和蓝牙驱动没有办法调试，理论上支持Airdrop 和 Handoff</p>
