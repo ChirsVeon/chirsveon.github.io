@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>持久化 on 亦青小站</title><link>https://chrisveon.github.io/tags/%E6%8C%81%E4%B9%85%E5%8C%96/</link><description>Recent content in 持久化 on 亦青小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sun, 02 Nov 2025 10:00:00 +0800</lastBuildDate><atom:link href="https://chrisveon.github.io/tags/%E6%8C%81%E4%B9%85%E5%8C%96/rss.xml" rel="self" type="application/rss+xml"/><item><title>Redis性能优化指南 内存管理与持久化策略实战</title><link>https://chrisveon.github.io/post/operations/redis-optimization/</link><pubDate>Sun, 02 Nov 2025 10:00:00 +0800</pubDate><guid>https://chrisveon.github.io/post/operations/redis-optimization/</guid><description>&lt;h1 id="redis-优化指南"&gt;Redis 优化指南
+&lt;a class="header-anchor" href="#redis-%e4%bc%98%e5%8c%96%e6%8c%87%e5%8d%97"&gt;&lt;/a&gt;
+&lt;/h1&gt;&lt;p&gt;Redis 是基于内存的键值数据库，其性能瓶颈通常在于内存、网络和持久化配置。&lt;/p&gt;
+&lt;h2 id="1-内存管理"&gt;1. 内存管理
+&lt;a class="header-anchor" href="#1-%e5%86%85%e5%ad%98%e7%ae%a1%e7%90%86"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;h3 id="设置内存上限与淘汰策略"&gt;设置内存上限与淘汰策略
+&lt;a class="header-anchor" href="#%e8%ae%be%e7%bd%ae%e5%86%85%e5%ad%98%e4%b8%8a%e9%99%90%e4%b8%8e%e6%b7%98%e6%b1%b0%e7%ad%96%e7%95%a5"&gt;&lt;/a&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;maxmemory 2gb&lt;/code&gt;&lt;/strong&gt;：设置 Redis 可使用的最大内存，建议为系统物理内存的70%-80%，为系统和其他进程留出空间。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;&lt;code&gt;maxmemory-policy allkeys-lru&lt;/code&gt;&lt;/strong&gt;：定义内存达到上限时的数据淘汰策略。
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;allkeys-lru&lt;/code&gt;（所有键中最近最少使用的）适用于缓存场景&lt;/li&gt;
+&lt;li&gt;若数据不能丢失，可使用 &lt;code&gt;volatile-lru&lt;/code&gt;（仅淘汰设定了过期时间的键）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="优化数据结构"&gt;优化数据结构
+&lt;a class="header-anchor" href="#%e4%bc%98%e5%8c%96%e6%95%b0%e6%8d%ae%e7%bb%93%e6%9e%84"&gt;&lt;/a&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;使用 Hash（哈希）来存储对象（如用户信息），而不是为每个字段存储一个单独的 String，以减少 Key 的数量和内存元数据开销。&lt;/li&gt;
+&lt;li&gt;对于小型聚合数据，可通过 &lt;code&gt;hash-max-ziplist-entries&lt;/code&gt; 等参数启用 ziplist 编码，节省内存。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="2-持久化策略"&gt;2. 持久化策略
+&lt;a class="header-anchor" href="#2-%e6%8c%81%e4%b9%85%e5%8c%96%e7%ad%96%e7%95%a5"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;根据数据安全性和性能要求平衡 RDB 和 AOF。&lt;/p&gt;</description></item></channel></rss>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>开发 on 亦青小站</title><link>https://chrisveon.github.io/categories/%E5%BC%80%E5%8F%91/</link><description>Recent content in 开发 on 亦青小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 09 Oct 2021 11:34:00 +0800</lastBuildDate><atom:link href="https://chrisveon.github.io/categories/%E5%BC%80%E5%8F%91/rss.xml" rel="self" type="application/rss+xml"/><item><title>基于STC89C52单片机的智能循迹小车：从设计到实现</title><link>https://chrisveon.github.io/post/development/line-follower-car-89c52/</link><pubDate>Sat, 09 Oct 2021 11:34:00 +0800</pubDate><guid>https://chrisveon.github.io/post/development/line-follower-car-89c52/</guid><description>&lt;blockquote&gt;
+ &lt;p&gt;一个融合了自动控制与人机交互的嵌入式项目实践&lt;/p&gt;
+
+ &lt;/blockquote&gt;
+&lt;h2 id="项目背景"&gt;项目背景
+&lt;a class="header-anchor" href="#%e9%a1%b9%e7%9b%ae%e8%83%8c%e6%99%af"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;在嵌入式系统和智能控制领域，循迹小车是一个经典而又实用的入门项目。它不仅涵盖了传感器数据采集、电机控制、算法处理等核心技术，还涉及人机交互和异常处理等实用功能。今天，我要向大家分享一个基于STC89C52单片机的智能循迹小车项目，这个项目完美诠释了&amp;quot;麻雀虽小，五脏俱全&amp;quot;的设计理念。&lt;/p&gt;</description></item><item><title>从零开始：在嵌入式Linux平台上实现2048游戏</title><link>https://chrisveon.github.io/post/development/embedded-2048-game-design/</link><pubDate>Sun, 23 May 2021 10:00:00 +0800</pubDate><guid>https://chrisveon.github.io/post/development/embedded-2048-game-design/</guid><description>&lt;h2 id="引言"&gt;引言
+&lt;a class="header-anchor" href="#%e5%bc%95%e8%a8%80"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;在嵌入式系统与设计实训课程中，我选择了一个既有趣又具挑战性的项目：在资源受限的嵌入式Linux平台上实现经典的2048游戏。这个看似简单的游戏实际上涵盖了嵌入式开发的多个核心知识点——硬件驱动、用户交互、资源管理和性能优化。本文将分享我在开发过程中遇到的技术挑战、解决方案以及收获的经验。&lt;/p&gt;</description></item></channel></rss>
