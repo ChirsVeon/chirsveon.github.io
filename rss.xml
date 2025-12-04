@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>亦青小站</title><link>https://chrisveon.github.io/</link><description>Recent content on 亦青小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Sat, 22 Nov 2025 01:13:16 +0800</lastBuildDate><atom:link href="https://chrisveon.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>从0到1的成长见证-我的fnOS nas升级正式版体验分享</title><link>https://chrisveon.github.io/post/system/fnos/fnos-experience-sharing/</link><pubDate>Sat, 22 Nov 2025 00:10:00 +0800</pubDate><guid>https://chrisveon.github.io/post/system/fnos/fnos-experience-sharing/</guid><description>&lt;p&gt;时光荏苒，转眼间与飞牛fnOS相伴已满一年。作为一位从早期测试版就开始使用的忠实用户，今天怀着无比激动的心情，与各位牛友分享我升级fnOS 1.0后的真实体验与感悟。&lt;/p&gt;</description></item><item><title>Redis性能优化指南 内存管理与持久化策略实战</title><link>https://chrisveon.github.io/post/operations/redis-optimization/</link><pubDate>Sun, 02 Nov 2025 10:00:00 +0800</pubDate><guid>https://chrisveon.github.io/post/operations/redis-optimization/</guid><description>&lt;h1 id="redis-优化指南"&gt;Redis 优化指南
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>亦青小站</title><link>https://chrisveon.github.io/</link><description>Recent content on 亦青小站</description><generator>Hugo</generator><language>zh-CN</language><lastBuildDate>Mon, 01 Dec 2025 10:09:06 +0800</lastBuildDate><atom:link href="https://chrisveon.github.io/rss.xml" rel="self" type="application/rss+xml"/><item><title>快速启动器：轻量级桌面快捷方式管理工具</title><link>https://chrisveon.github.io/post/development/quick-launcher/</link><pubDate>Mon, 01 Dec 2025 10:09:06 +0800</pubDate><guid>https://chrisveon.github.io/post/development/quick-launcher/</guid><description>&lt;h2 id="什么是快速启动器"&gt;什么是快速启动器？
+&lt;a class="header-anchor" href="#%e4%bb%80%e4%b9%88%e6%98%af%e5%bf%ab%e9%80%9f%e5%90%af%e5%8a%a8%e5%99%a8"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;快速启动器（Quick Launcher）是一个轻量级、高效的桌面快捷方式管理工具，旨在帮助用户快速访问常用的应用程序和网站。它提供了一个简洁直观的网格界面，让您能够以视觉化的方式管理和启动所有常用的快捷方式。&lt;/p&gt;</description></item><item><title>从0到1的成长见证-我的fnOS nas升级正式版体验分享</title><link>https://chrisveon.github.io/post/system/fnos/fnos-experience-sharing/</link><pubDate>Sat, 22 Nov 2025 00:10:00 +0800</pubDate><guid>https://chrisveon.github.io/post/system/fnos/fnos-experience-sharing/</guid><description>&lt;p&gt;时光荏苒，转眼间与飞牛fnOS相伴已满一年。作为一位从早期测试版就开始使用的忠实用户，今天怀着无比激动的心情，与各位牛友分享我升级fnOS 1.0后的真实体验与感悟。&lt;/p&gt;</description></item><item><title>Redis性能优化指南 内存管理与持久化策略实战</title><link>https://chrisveon.github.io/post/operations/redis-optimization/</link><pubDate>Sun, 02 Nov 2025 10:00:00 +0800</pubDate><guid>https://chrisveon.github.io/post/operations/redis-optimization/</guid><description>&lt;h1 id="redis-优化指南"&gt;Redis 优化指南
 &lt;a class="header-anchor" href="#redis-%e4%bc%98%e5%8c%96%e6%8c%87%e5%8d%97"&gt;&lt;/a&gt;
 &lt;/h1&gt;&lt;p&gt;Redis 是基于内存的键值数据库，其性能瓶颈通常在于内存、网络和持久化配置。&lt;/p&gt;
 &lt;h2 id="1-内存管理"&gt;1. 内存管理
@@ -403,7 +405,8 @@
 &lt;/div&gt;
 &lt;/div&gt;
 
-&lt;p&gt;rps-rfs-ops.sh这个文件并不存在，需要自己复制内容新建一个，或者传一个上去； 需要分别在下面二个位置调用这段脚本“rps-rfs-ops.sh set”：&lt;/p&gt;</description></item><item><title>基于STC89C52单片机的智能循迹小车：从设计到实现</title><link>https://chrisveon.github.io/post/development/line-follower-car-89c52/</link><pubDate>Sat, 09 Oct 2021 11:34:00 +0800</pubDate><guid>https://chrisveon.github.io/post/development/line-follower-car-89c52/</guid><description>&lt;blockquote&gt;
+&lt;p&gt;rps-rfs-ops.sh这个文件并不存在，需要自己复制内容新建一个，或者传一个上去； 需要分别在下面二个位置调用这段脚本“rps-rfs-ops.sh set”：&lt;/p&gt;</description></item><item><title>信创环境下硬件兼容性测试方法论</title><link>https://chrisveon.github.io/post/xc/xc-hardware-compatibility-testing/</link><pubDate>Wed, 18 Oct 2023 16:21:46 +0800</pubDate><guid>https://chrisveon.github.io/post/xc/xc-hardware-compatibility-testing/</guid><description>&lt;blockquote&gt;
+ &lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;：基于在中国长城科技股份有限公司参与6个信创项目的实战经验，总结出一套完整的硬件兼容性测试体系。本文详细阐述测试流程、工具选择、问题定位及解决方案，为信创生态建设提供技术参考。&lt;/p&gt;</description></item><item><title>基于STC89C52单片机的智能循迹小车：从设计到实现</title><link>https://chrisveon.github.io/post/development/line-follower-car-89c52/</link><pubDate>Sat, 09 Oct 2021 11:34:00 +0800</pubDate><guid>https://chrisveon.github.io/post/development/line-follower-car-89c52/</guid><description>&lt;blockquote&gt;
  &lt;p&gt;一个融合了自动控制与人机交互的嵌入式项目实践&lt;/p&gt;
 
  &lt;/blockquote&gt;
@@ -460,11 +463,60 @@
  
  &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
  
-&lt;/a&gt;（提取码：imcw）&lt;/p&gt;</description></item><item><title>关于我</title><link>https://chrisveon.github.io/about.html</link><pubDate>Sat, 08 Dec 2018 20:00:00 +0800</pubDate><guid>https://chrisveon.github.io/about.html</guid><description>&lt;h1 id="关于我"&gt;关于我
-&lt;a class="header-anchor" href="#%e5%85%b3%e4%ba%8e%e6%88%91"&gt;&lt;/a&gt;
-&lt;/h1&gt;&lt;p&gt;一个正在学习CS&amp;amp;EE的小白，用Blog来记录学习生活中的点点滴滴。&lt;/p&gt;
-&lt;p&gt;要是无法讨好全世界，就先讨好自己吧！&lt;/p&gt;
-&lt;p&gt;WeChat: YiQing_Official&lt;/p&gt;</description></item><item><title>读书郎</title><link>https://chrisveon.github.io/post/the-bookish-youth.html</link><pubDate>Tue, 27 Sep 2016 10:30:00 +0800</pubDate><guid>https://chrisveon.github.io/post/the-bookish-youth.html</guid><description>&lt;p&gt;夜影落寒窗，持卷入梦床。&lt;/p&gt;
+&lt;/a&gt;（提取码：imcw）&lt;/p&gt;</description></item><item><title>关于我</title><link>https://chrisveon.github.io/about.html</link><pubDate>Sat, 08 Dec 2018 20:00:00 +0800</pubDate><guid>https://chrisveon.github.io/about.html</guid><description>&lt;h2 id="-个人简介"&gt;👨‍💻 个人简介
+&lt;a class="header-anchor" href="#-%e4%b8%aa%e4%ba%ba%e7%ae%80%e4%bb%8b"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;p&gt;&lt;strong&gt;职业&lt;/strong&gt;：系统运维/测试开发工程师&lt;br&gt;
+&lt;strong&gt;经验&lt;/strong&gt;：3年
+&lt;strong&gt;地点&lt;/strong&gt;：湖南长沙（优先）&lt;br&gt;
+&lt;strong&gt;求职状态&lt;/strong&gt;：✅ &lt;strong&gt;积极寻找新机会&lt;/strong&gt;（期望2025年3月前入职）&lt;/p&gt;
+&lt;h2 id="-求职意向"&gt;🎯 求职意向
+&lt;a class="header-anchor" href="#-%e6%b1%82%e8%81%8c%e6%84%8f%e5%90%91"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;目标岗位&lt;/strong&gt;：系统运维工程师、测试开发工程师、DevOps工程师&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;技术栈&lt;/strong&gt;：Linux/Python/Shell/信创测试/自动化运维&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;薪资期望&lt;/strong&gt;：8k-12k（可接受发展空间大的机会）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;工作性质&lt;/strong&gt;：接受加班和出差，希望保持工作生活平衡&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-核心优势"&gt;💼 核心优势
+&lt;a class="header-anchor" href="#-%e6%a0%b8%e5%bf%83%e4%bc%98%e5%8a%bf"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;h3 id="-技术深度"&gt;✅ &lt;strong&gt;技术深度&lt;/strong&gt;
+&lt;a class="header-anchor" href="#-%e6%8a%80%e6%9c%af%e6%b7%b1%e5%ba%a6"&gt;&lt;/a&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Linux系统&lt;/strong&gt;：精通性能调优（CPU/内存/IO/网络）&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;编程能力&lt;/strong&gt;：Python自动化测试、Shell脚本开发、C语言嵌入式&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;信创经验&lt;/strong&gt;：参与6个信创项目测试，熟悉麒麟/UOS系统适配&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;运维工具&lt;/strong&gt;：Zabbix/Prometheus监控、VMware虚拟化、Docker容器化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id="-项目管理"&gt;✅ &lt;strong&gt;项目管理&lt;/strong&gt;
+&lt;a class="header-anchor" href="#-%e9%a1%b9%e7%9b%ae%e7%ae%a1%e7%90%86"&gt;&lt;/a&gt;
+&lt;/h3&gt;&lt;ul&gt;
+&lt;li&gt;从0到1搭建技术架构（86台客户机集群）&lt;/li&gt;
+&lt;li&gt;成本控制专家（节省20万设备投入）&lt;/li&gt;
+&lt;li&gt;快速学习能力（长城6个月获B级绩效，获评比例10%）&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="-联系方式"&gt;📞 联系方式
+&lt;a class="header-anchor" href="#-%e8%81%94%e7%b3%bb%e6%96%b9%e5%bc%8f"&gt;&lt;/a&gt;
+&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;邮箱&lt;/strong&gt;：
+&lt;a href="mailto:YiQingOfficial@163.com" title="YiQingOfficial@163.com" &gt;
+ YiQingOfficial@163.com
+ 
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;GitHub&lt;/strong&gt;：
+&lt;a href="https://github.com/ChrisVeon" title="github.com/ChrisVeon" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
+ github.com/ChrisVeon
+ 
+ &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
+ 
+&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;CSDN&lt;/strong&gt;：
+&lt;a href="https://blog.csdn.net/weixin_43748008" title="blog.csdn.net/weixin_43748008" rel="noopener external nofollow noreferrer" target="_blank" class=" exturl"&gt;
+ blog.csdn.net/weixin_43748008
+ 
+ &lt;i class="fa fa-external-link-alt"&gt;&lt;/i&gt;
+ 
+&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description></item><item><title>读书郎</title><link>https://chrisveon.github.io/post/the-bookish-youth.html</link><pubDate>Tue, 27 Sep 2016 10:30:00 +0800</pubDate><guid>https://chrisveon.github.io/post/the-bookish-youth.html</guid><description>&lt;p&gt;夜影落寒窗，持卷入梦床。&lt;/p&gt;
 &lt;p&gt;经年风雨雪，烛下捧茶凉。&lt;/p&gt;
 &lt;p&gt;刺骨悬梁瘦，书生昼夜忙。&lt;/p&gt;
 &lt;p&gt;图谋功与利，遥盼状元郎。&lt;/p&gt;
